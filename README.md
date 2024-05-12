@@ -1,4 +1,4 @@
-## Setup and Installation ##
+# Setup and Installation
 
 # Clone the Repository
 
@@ -23,14 +23,23 @@ uvicorn app.main:app --reload
 
 # API Documentation
 * Endpoints
+
 Create Blog Post: POST /posts/
+
 Request Body: JSON representing the new blog post.
+
 Get Blog Post: GET /posts/{post_id}
+
 Path Parameter: post_id - ID of the blog post.
+
 Create Comment: POST /posts/{post_id}/comments/
+
 Path Parameter: post_id - ID of the blog post.
+
 Request Body: JSON representing the new comment.
+
 Like Blog Post: POST /posts/{post_id}/like/
+
 Path Parameter: post_id - ID of the blog post.
 
 # Data Models
